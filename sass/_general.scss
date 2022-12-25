@@ -1,4 +1,6 @@
-*,*::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -24,4 +26,11 @@ img {
   height: auto;
   vertical-align: middle;
   object-fit: cover;
+}
+
+.container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
